@@ -106,14 +106,33 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Input\AnalogIn.cs" />
+    <Compile Include="Output\AnalogOut.cs" />
+    <Compile Include="Sensors\AnalogSensor.cs" />
+    <Compile Include="Input\DigitalIn.cs" />
+    <Compile Include="Output\DigitalOut.cs" />
+    <Compile Include="Sensors\DigitalSensor.cs" />
+    <Compile Include="GPIODevice.cs" />
+    <Compile Include="GPIODeviceStatus.cs" />
+    <Compile Include="Sensors\I2c.cs" />
+    <Compile Include="Input\Input.cs" />
+    <Compile Include="Output\Output.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sensors\Sensor.cs" />
     <EmbeddedResource Include="Properties\RPiLibrary.rd.xml" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>5.2.3</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RPiLib_ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="WindowsIoT, Version=10.0.15063.0">
+      <Name>Windows IoT Extensions for the UWP</Name>
+    </SDKReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

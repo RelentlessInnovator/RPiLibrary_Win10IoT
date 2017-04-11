@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RPiLibrary.GPIODevice">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAABAAAAAAAAAAAAAI=</HashCode>
+      <FileName>GPIODevice.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="GPIODeviceStatus" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RPiLibrary.Output">
+    <Position X="3.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Output\Output.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPiLibrary.Sensor">
+    <Position X="10" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sensors\Sensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPiLibrary.Input">
+    <Position X="6.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Input\Input.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPiLibrary.DigitalOut">
+    <Position X="3.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Output\DigitalOut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPiLibrary.DigitalIn">
+    <Position X="6" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Input\DigitalIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPiLibrary.AnalogIn">
+    <Position X="7.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Input\AnalogIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPiLibrary.AnalogOut">
+    <Position X="1.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Output\AnalogOut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPiLibrary.I2c">
+    <Position X="10" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAACACAAAQAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Sensors\I2c.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPiLibrary.AnalogSensor">
+    <Position X="12" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sensors\AnalogSensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPiLibrary.DigitalSensor">
+    <Position X="14" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sensors\DigitalSensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="RPiLibrary.GPIODeviceStatus">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAQAAAAAAAAAAAAAAAAAAAAAAAABIAAAAAAAA=</HashCode>
+      <FileName>GPIODeviceStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
